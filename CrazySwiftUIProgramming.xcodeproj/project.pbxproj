@@ -14,6 +14,7 @@
 		E92D643B270EEE130033A78D /* CrazySwiftUIProgrammingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92D643A270EEE130033A78D /* CrazySwiftUIProgrammingTests.swift */; };
 		E92D6446270EEE130033A78D /* CrazySwiftUIProgrammingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92D6445270EEE130033A78D /* CrazySwiftUIProgrammingUITests.swift */; };
 		E92D6457270EFF170033A78D /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92D6456270EFF170033A78D /* Color.swift */; };
+		E92D645F270F18B10033A78D /* ListViewPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92D645E270F18B10033A78D /* ListViewPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		E92D6445270EEE130033A78D /* CrazySwiftUIProgrammingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrazySwiftUIProgrammingUITests.swift; sourceTree = "<group>"; };
 		E92D6447270EEE130033A78D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E92D6456270EFF170033A78D /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		E92D645E270F18B10033A78D /* ListViewPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				E92D6431270EEE130033A78D /* Info.plist */,
 				E92D642E270EEE130033A78D /* Preview Content */,
 				E92D6456270EFF170033A78D /* Color.swift */,
+				E92D645E270F18B10033A78D /* ListViewPage.swift */,
 			);
 			path = CrazySwiftUIProgramming;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E92D642B270EEE120033A78D /* ContentView.swift in Sources */,
+				E92D645F270F18B10033A78D /* ListViewPage.swift in Sources */,
 				E92D6457270EFF170033A78D /* Color.swift in Sources */,
 				E92D6429270EEE120033A78D /* CrazySwiftUIProgrammingApp.swift in Sources */,
 			);
