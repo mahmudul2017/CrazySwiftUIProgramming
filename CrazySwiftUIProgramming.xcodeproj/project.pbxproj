@@ -13,6 +13,7 @@
 		E92D6430270EEE130033A78D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E92D642F270EEE130033A78D /* Preview Assets.xcassets */; };
 		E92D643B270EEE130033A78D /* CrazySwiftUIProgrammingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92D643A270EEE130033A78D /* CrazySwiftUIProgrammingTests.swift */; };
 		E92D6446270EEE130033A78D /* CrazySwiftUIProgrammingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92D6445270EEE130033A78D /* CrazySwiftUIProgrammingUITests.swift */; };
+		E92D6457270EFF170033A78D /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92D6456270EFF170033A78D /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		E92D6441270EEE130033A78D /* CrazySwiftUIProgrammingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrazySwiftUIProgrammingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E92D6445270EEE130033A78D /* CrazySwiftUIProgrammingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrazySwiftUIProgrammingUITests.swift; sourceTree = "<group>"; };
 		E92D6447270EEE130033A78D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E92D6456270EFF170033A78D /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				E92D642C270EEE130033A78D /* Assets.xcassets */,
 				E92D6431270EEE130033A78D /* Info.plist */,
 				E92D642E270EEE130033A78D /* Preview Content */,
+				E92D6456270EFF170033A78D /* Color.swift */,
 			);
 			path = CrazySwiftUIProgramming;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E92D642B270EEE120033A78D /* ContentView.swift in Sources */,
+				E92D6457270EFF170033A78D /* Color.swift in Sources */,
 				E92D6429270EEE120033A78D /* CrazySwiftUIProgrammingApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

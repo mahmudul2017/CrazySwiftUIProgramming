@@ -11,13 +11,13 @@ struct ContentView: View {
     var body: some View {
         Text("TextView, EditText, ListView, RadioGroup, CheckBox, DataBase and Network Call!")
             .fontWeight(.thin)
-            .foregroundColor(Color.green)
+            .foregroundColor(.color1)
             .padding(12)
-            .font(.body)
-            .lineLimit(/*@START_MENU_TOKEN@*/2/*@END_MENU_TOKEN@*/)
+            .font(.system(size: 18))
+            .lineLimit(2)
             .multilineTextAlignment(.center)
+            .background(Color.black)
             .truncationMode(.middle)
-            
     }
 }
 
