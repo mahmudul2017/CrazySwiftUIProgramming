@@ -9,8 +9,15 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("First, Commit!")
-            .padding()
+        Text("TextView, EditText, ListView, RadioGroup, CheckBox, DataBase and Network Call!")
+            .fontWeight(.thin)
+            .foregroundColor(Color.green)
+            .padding(12)
+            .font(.body)
+            .lineLimit(/*@START_MENU_TOKEN@*/2/*@END_MENU_TOKEN@*/)
+            .multilineTextAlignment(.center)
+            .truncationMode(.middle)
+            
     }
 }
 
