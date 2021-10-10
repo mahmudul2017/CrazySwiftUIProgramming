@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  CrazySwiftUIProgramming
 //
-//  Created by Jaman on 7/10/21.
+//  Created by Mahmudul on 7/10/21.
 //
 
 import SwiftUI
