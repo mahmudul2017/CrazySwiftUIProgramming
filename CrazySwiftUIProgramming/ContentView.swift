@@ -26,6 +26,12 @@ struct ContentView: View {
                         
                 }.navigationBarTitle("SwiftUI ListView")
                 
+                Image("royalgreenlogo")
+                    .resizable()
+                    .clipShape(Circle())
+                    .frame(width: 70, height: 70)
+                    .clipped()
+                
                 Text("Check Page Change")
                 
                 Text("TextView, EditText, ListView, RadioGroup, CheckBox, DataBase and Network Call!")
