@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E918C21A271D415100A398B8 /* CustomProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E918C219271D415100A398B8 /* CustomProtocol.swift */; };
 		E92D6429270EEE120033A78D /* CrazySwiftUIProgrammingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92D6428270EEE120033A78D /* CrazySwiftUIProgrammingApp.swift */; };
 		E92D642B270EEE120033A78D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92D642A270EEE120033A78D /* ContentView.swift */; };
 		E92D642D270EEE130033A78D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E92D642C270EEE130033A78D /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E918C219271D415100A398B8 /* CustomProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomProtocol.swift; sourceTree = "<group>"; };
 		E92D6425270EEE120033A78D /* CrazySwiftUIProgramming.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrazySwiftUIProgramming.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E92D6428270EEE120033A78D /* CrazySwiftUIProgrammingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrazySwiftUIProgrammingApp.swift; sourceTree = "<group>"; };
 		E92D642A270EEE120033A78D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				E92D642E270EEE130033A78D /* Preview Content */,
 				E92D6456270EFF170033A78D /* Color.swift */,
 				E92D645E270F18B10033A78D /* ListViewPage.swift */,
+				E918C219271D415100A398B8 /* CustomProtocol.swift */,
 			);
 			path = CrazySwiftUIProgramming;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E918C21A271D415100A398B8 /* CustomProtocol.swift in Sources */,
 				E92D642B270EEE120033A78D /* ContentView.swift in Sources */,
 				E92D645F270F18B10033A78D /* ListViewPage.swift in Sources */,
 				E92D6457270EFF170033A78D /* Color.swift in Sources */,
