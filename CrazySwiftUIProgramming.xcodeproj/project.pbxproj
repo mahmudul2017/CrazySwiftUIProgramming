@@ -20,6 +20,9 @@
 		E95BD8EA2771D28800C90ACA /* SuccessToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95BD8E92771D28800C90ACA /* SuccessToast.swift */; };
 		E9699CBE277AD595006A92A0 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9699CBD277AD595006A92A0 /* WebView.swift */; };
 		E9699CC6277AE3D5006A92A0 /* SwiftUIWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9699CC5277AE3D5006A92A0 /* SwiftUIWebView.swift */; };
+		E9699CCC277B2670006A92A0 /* SheetModelDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9699CCB277B2670006A92A0 /* SheetModelDemo.swift */; };
+		E9699CD4277B271A006A92A0 /* SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9699CD3277B271A006A92A0 /* SheetView.swift */; };
+		E9699CD9277B27D0006A92A0 /* DatePickerDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9699CD8277B27D0006A92A0 /* DatePickerDemo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +62,9 @@
 		E95BD8E92771D28800C90ACA /* SuccessToast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessToast.swift; sourceTree = "<group>"; };
 		E9699CBD277AD595006A92A0 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		E9699CC5277AE3D5006A92A0 /* SwiftUIWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIWebView.swift; sourceTree = "<group>"; };
+		E9699CCB277B2670006A92A0 /* SheetModelDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetModelDemo.swift; sourceTree = "<group>"; };
+		E9699CD3277B271A006A92A0 /* SheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetView.swift; sourceTree = "<group>"; };
+		E9699CD8277B27D0006A92A0 /* DatePickerDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerDemo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +115,7 @@
 		E92D6427270EEE120033A78D /* CrazySwiftUIProgramming */ = {
 			isa = PBXGroup;
 			children = (
+				E9699CCA277B264E006A92A0 /* sheetModel */,
 				E9699CBC277AD573006A92A0 /* webView */,
 				E95BD8E82771D26B00C90ACA /* utility */,
 				E95BD8DF2771D00C00C90ACA /* listView */,
@@ -173,6 +180,16 @@
 				E9699CC5277AE3D5006A92A0 /* SwiftUIWebView.swift */,
 			);
 			path = webView;
+			sourceTree = "<group>";
+		};
+		E9699CCA277B264E006A92A0 /* sheetModel */ = {
+			isa = PBXGroup;
+			children = (
+				E9699CCB277B2670006A92A0 /* SheetModelDemo.swift */,
+				E9699CD3277B271A006A92A0 /* SheetView.swift */,
+				E9699CD8277B27D0006A92A0 /* DatePickerDemo.swift */,
+			);
+			path = sheetModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -304,12 +321,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9699CCC277B2670006A92A0 /* SheetModelDemo.swift in Sources */,
 				E918C21A271D415100A398B8 /* CustomProtocol.swift in Sources */,
 				E9699CC6277AE3D5006A92A0 /* SwiftUIWebView.swift in Sources */,
 				E9699CBE277AD595006A92A0 /* WebView.swift in Sources */,
 				E95BD8EA2771D28800C90ACA /* SuccessToast.swift in Sources */,
+				E9699CD4277B271A006A92A0 /* SheetView.swift in Sources */,
 				E92D642B270EEE120033A78D /* ContentView.swift in Sources */,
 				E92D645F270F18B10033A78D /* BasicSwiftView.swift in Sources */,
+				E9699CD9277B27D0006A92A0 /* DatePickerDemo.swift in Sources */,
 				E92D6457270EFF170033A78D /* Color.swift in Sources */,
 				E95BD8E12771D03300C90ACA /* ListViewSample.swift in Sources */,
 				E92D6429270EEE120033A78D /* CrazySwiftUIProgrammingApp.swift in Sources */,

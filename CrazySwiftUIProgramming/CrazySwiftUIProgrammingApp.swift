@@ -12,7 +12,8 @@ struct CrazySwiftUIProgrammingApp: App {
     var body: some Scene {
         WindowGroup {
             //ContentView()
-            WebView()
+            //WebView()
+            SheetView()
         }
     }
 }
