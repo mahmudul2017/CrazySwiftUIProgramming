@@ -11,7 +11,8 @@ import SwiftUI
 struct CrazySwiftUIProgrammingApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //ContentView()
+            WebView()
         }
     }
 }

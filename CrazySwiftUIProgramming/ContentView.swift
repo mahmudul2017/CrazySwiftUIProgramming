@@ -15,7 +15,7 @@ struct ContentView: View {
         
         NavigationView {
             VStack {
-                NavigationLink(destination: ListViewPage()) {
+                NavigationLink(destination: ListViewSample()) {
                     Text("Go To ListView")
                         .padding(.leading, 48)
                         .padding(.top, 8)

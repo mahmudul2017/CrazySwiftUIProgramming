@@ -1,5 +1,5 @@
 //
-//  ListViewPage.swift
+//  BasicSwiftView.swift
 //  CrazySwiftUIProgramming
 //
 //  Created by Mahmudul on 7/10/21.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ListViewPage: View {
+struct BasicSwiftView: View {
     @State private var number1 = ""
     @State private var number2 = ""
     @State private var showText = ""
@@ -27,7 +27,6 @@ struct ListViewPage: View {
                         .padding(.bottom, 8)
                         .background(Color.blue)
                         .foregroundColor(.white)
-                        
                 }
                     
                     Text("SwiftUI ListView!")
@@ -63,8 +62,8 @@ struct ListViewPage: View {
     }
 }
 
-struct ListViewPage_Previews: PreviewProvider {
+struct BasicSwiftView_Previews: PreviewProvider {
     static var previews: some View {
-        ListViewPage()
+        BasicSwiftView()
     }
 }

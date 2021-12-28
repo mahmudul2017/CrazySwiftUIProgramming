@@ -15,7 +15,11 @@
 		E92D643B270EEE130033A78D /* CrazySwiftUIProgrammingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92D643A270EEE130033A78D /* CrazySwiftUIProgrammingTests.swift */; };
 		E92D6446270EEE130033A78D /* CrazySwiftUIProgrammingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92D6445270EEE130033A78D /* CrazySwiftUIProgrammingUITests.swift */; };
 		E92D6457270EFF170033A78D /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92D6456270EFF170033A78D /* Color.swift */; };
-		E92D645F270F18B10033A78D /* ListViewPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92D645E270F18B10033A78D /* ListViewPage.swift */; };
+		E92D645F270F18B10033A78D /* BasicSwiftView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92D645E270F18B10033A78D /* BasicSwiftView.swift */; };
+		E95BD8E12771D03300C90ACA /* ListViewSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95BD8E02771D03300C90ACA /* ListViewSample.swift */; };
+		E95BD8EA2771D28800C90ACA /* SuccessToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95BD8E92771D28800C90ACA /* SuccessToast.swift */; };
+		E9699CBE277AD595006A92A0 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9699CBD277AD595006A92A0 /* WebView.swift */; };
+		E9699CC6277AE3D5006A92A0 /* SwiftUIWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9699CC5277AE3D5006A92A0 /* SwiftUIWebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +54,11 @@
 		E92D6445270EEE130033A78D /* CrazySwiftUIProgrammingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrazySwiftUIProgrammingUITests.swift; sourceTree = "<group>"; };
 		E92D6447270EEE130033A78D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E92D6456270EFF170033A78D /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
-		E92D645E270F18B10033A78D /* ListViewPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewPage.swift; sourceTree = "<group>"; };
+		E92D645E270F18B10033A78D /* BasicSwiftView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicSwiftView.swift; sourceTree = "<group>"; };
+		E95BD8E02771D03300C90ACA /* ListViewSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewSample.swift; sourceTree = "<group>"; };
+		E95BD8E92771D28800C90ACA /* SuccessToast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessToast.swift; sourceTree = "<group>"; };
+		E9699CBD277AD595006A92A0 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		E9699CC5277AE3D5006A92A0 /* SwiftUIWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIWebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,13 +109,16 @@
 		E92D6427270EEE120033A78D /* CrazySwiftUIProgramming */ = {
 			isa = PBXGroup;
 			children = (
+				E9699CBC277AD573006A92A0 /* webView */,
+				E95BD8E82771D26B00C90ACA /* utility */,
+				E95BD8DF2771D00C00C90ACA /* listView */,
 				E92D6428270EEE120033A78D /* CrazySwiftUIProgrammingApp.swift */,
 				E92D642A270EEE120033A78D /* ContentView.swift */,
 				E92D642C270EEE130033A78D /* Assets.xcassets */,
 				E92D6431270EEE130033A78D /* Info.plist */,
 				E92D642E270EEE130033A78D /* Preview Content */,
 				E92D6456270EFF170033A78D /* Color.swift */,
-				E92D645E270F18B10033A78D /* ListViewPage.swift */,
+				E92D645E270F18B10033A78D /* BasicSwiftView.swift */,
 				E918C219271D415100A398B8 /* CustomProtocol.swift */,
 			);
 			path = CrazySwiftUIProgramming;
@@ -137,6 +148,31 @@
 				E92D6447270EEE130033A78D /* Info.plist */,
 			);
 			path = CrazySwiftUIProgrammingUITests;
+			sourceTree = "<group>";
+		};
+		E95BD8DF2771D00C00C90ACA /* listView */ = {
+			isa = PBXGroup;
+			children = (
+				E95BD8E02771D03300C90ACA /* ListViewSample.swift */,
+			);
+			path = listView;
+			sourceTree = "<group>";
+		};
+		E95BD8E82771D26B00C90ACA /* utility */ = {
+			isa = PBXGroup;
+			children = (
+				E95BD8E92771D28800C90ACA /* SuccessToast.swift */,
+			);
+			path = utility;
+			sourceTree = "<group>";
+		};
+		E9699CBC277AD573006A92A0 /* webView */ = {
+			isa = PBXGroup;
+			children = (
+				E9699CBD277AD595006A92A0 /* WebView.swift */,
+				E9699CC5277AE3D5006A92A0 /* SwiftUIWebView.swift */,
+			);
+			path = webView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,9 +305,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E918C21A271D415100A398B8 /* CustomProtocol.swift in Sources */,
+				E9699CC6277AE3D5006A92A0 /* SwiftUIWebView.swift in Sources */,
+				E9699CBE277AD595006A92A0 /* WebView.swift in Sources */,
+				E95BD8EA2771D28800C90ACA /* SuccessToast.swift in Sources */,
 				E92D642B270EEE120033A78D /* ContentView.swift in Sources */,
-				E92D645F270F18B10033A78D /* ListViewPage.swift in Sources */,
+				E92D645F270F18B10033A78D /* BasicSwiftView.swift in Sources */,
 				E92D6457270EFF170033A78D /* Color.swift in Sources */,
+				E95BD8E12771D03300C90ACA /* ListViewSample.swift in Sources */,
 				E92D6429270EEE120033A78D /* CrazySwiftUIProgrammingApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
